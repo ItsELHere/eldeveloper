@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+#root {
+  height: auto;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  line-height: 50px;
+}
+
+.footer {
+  height: 30vh;
+  background-color: black;
+  color: #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,34 @@
+.contact {
+  height: 100vh;
+  background-image: url("../assets/wave.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact > .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact > .container > .contact-container > h1 {
+  text-align: center;
+  text-shadow: 2px 2px 5px #3f3f3f;
+  font-weight: 900;
+}
+
+.contact > .container > .contact-container {
+  border: solid 2px black;
+  border-radius: 10px;
+  background-color: rgba(63, 63, 63, 0.5);
+  box-shadow: 2px 2px 5px black;
+}
+
+.contact > .container > .contact-container > .container > button {
+  height: 7vh;
+  border-radius: 15px;
+  box-shadow: 3px 3px grey;
+}
+.contact > .container > .contact-container > .container > button > p {
+  font-weight: 600;
+}
